@@ -9,7 +9,7 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "js-yaml": "~3.0.2",
+    "js-yaml": "3.6.1",
     "through": "~2.3.4"
   },
   "devDependencies": {},
