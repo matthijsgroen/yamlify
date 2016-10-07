@@ -1,6 +1,6 @@
 var through = require('through');
 var yaml = require('js-yaml');
-var includeSchema = require('./includeSchema');
+//var includeSchema = require('./includeSchema');
 
 module.exports = function(file) {
   if (!/\.ya?ml$/.test(file)) return through();
