@@ -12,7 +12,7 @@ module.exports = function(file) {
 
   function end() {
     this.queue('module.exports = ' + JSON.stringify(yaml.safeLoad(data, {
-      schema: yaml.DEFAULT_FULL_SCHEMA,
+      //schema: yaml.DEFAULT_FULL_SCHEMA,
       filename: file
     })) + ';');
     this.queue(null);
